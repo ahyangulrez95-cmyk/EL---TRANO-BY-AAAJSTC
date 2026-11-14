@@ -1,0 +1,229 @@
+
+<header class="topbar">
+  <a class="logo" href="#home">EL <span>TRANO</span></a>
+  <div class="top-status"><i></i> SYSTEM ONLINE</div>
+  <button id="menuBtn" class="menu-btn">☰</button>
+  <nav id="nav">
+    <a href="#home">HOME</a>
+    <a href="#dashboard">COMMAND</a>
+    <a href="#about">ABOUT</a>
+    <a href="#team">TEAM</a>
+    <a href="#projects">PROJECTS</a>
+    <a href="#etra">ETRA AI</a>
+    <a href="#notices">NOTICES</a>
+    <a href="#tasks">TASKS</a>
+    <a href="#events">EVENTS</a>
+    <a href="#files">FILES</a>
+    <a href="#search">SEARCH</a>
+    <a href="#login">LOGIN</a>
+    <a href="#settings">SETTINGS</a>
+    <a href="#admin">ADMIN</a>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-grid"></div>
+  <div class="radar">
+    <div class="radar-ring ring1"></div>
+    <div class="radar-ring ring2"></div>
+    <div class="radar-ring ring3"></div>
+    <div class="radar-sweep"></div>
+    <div class="radar-center"></div>
+    <span class="radar-dot dot1"></span>
+    <span class="radar-dot dot2"></span>
+  </div>
+  <div class="hero-content">
+    <p class="eyebrow">EL TRANO // PRIVATE TEAM NETWORK</p>
+    <h1>TACTICAL <span>COMMAND</span></h1>
+    <h2>CENTER</h2>
+    <p class="hero-sub">ONE TEAM. ONE IDENTITY. ONE VISION.</p>
+    <a class="btn" href="#dashboard">ACCESS COMMAND CENTER ↗</a>
+    <div class="hero-status">● ALL SYSTEMS OPERATIONAL — DEMO</div>
+  </div>
+  <div class="hero-coordinate">NETWORK ID: ETRA-001<br>BUILD: 2.0</div>
+</section>
+
+<section id="dashboard" class="section">
+  <div class="section-heading">
+    <span>01 // OPERATIONS</span>
+    <h2>COMMAND <b>CENTER</b></h2>
+  </div>
+  <div class="stats">
+    <article class="panel stat"><small>TEAM MEMBERS</small><h3 id="memberCount">3</h3><span>REGISTERED</span></article>
+    <article class="panel stat"><small>ACTIVE PROJECTS</small><h3 id="projectCount">2</h3><span>TRACKED</span></article>
+    <article class="panel stat"><small>TOTAL TASKS</small><h3 id="taskCount">0</h3><span>ASSIGNMENTS</span></article>
+    <article class="panel stat"><small>LOCAL TIME</small><h3 id="clock">--:--:--</h3><span>INDIA STANDARD TIME</span></article>
+  </div>
+  <div class="panel announcement">
+    <div class="panel-label">SYSTEM MESSAGE // 001</div>
+    <h3>WELCOME TO EL TRANO</h3>
+    <p>Command center initialized. Team operations are ready for the next phase.</p>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="section-heading"><span>02 // IDENTITY</span><h2>ABOUT <b>EL TRANO</b></h2></div>
+  <div class="panel">
+    <div class="panel-label">MISSION BRIEFING</div>
+    <h3>ONE TEAM. ONE VISION.</h3>
+    <p>EL TRANO is a team built on unity, creativity, teamwork and ambition.</p>
+    <p>Our mission is to work together, create meaningful projects and build a strong team identity.</p>
+  </div>
+</section>
+
+<section id="team" class="section">
+  <div class="section-heading"><span>03 // PERSONNEL</span><h2>TEAM <b>ROSTER</b></h2></div>
+  <div class="grid">
+    <article class="panel member"><div class="avatar">01</div><span class="status">ACTIVE</span><h3>TEAM MEMBER 01</h3><p>Founder / Team Lead</p></article>
+    <article class="panel member"><div class="avatar">02</div><span class="status">ACTIVE</span><h3>TEAM MEMBER 02</h3><p>Team Member</p></article>
+    <article class="panel member"><div class="avatar">03</div><span class="status">ACTIVE</span><h3>TEAM MEMBER 03</h3><p>Team Member</p></article>
+  </div>
+  <p class="hint">DEMO PERSONNEL RECORDS — CUSTOMIZE MEMBER DETAILS LATER.</p>
+</section>
+
+<section id="projects" class="section">
+  <div class="section-heading"><span>04 // DEVELOPMENT</span><h2>PROJECT <b>DATABASE</b></h2></div>
+  <div class="grid">
+    <article class="panel project">
+      <div class="panel-label">PROJECT 001</div><h3>EL TRANO WEBSITE</h3>
+      <p>Official team network development.</p>
+      <span class="status">IN PROGRESS</span>
+      <div class="progress"><i style="width:65%"></i></div><small>65% COMPLETE — DEMO</small>
+    </article>
+    <article class="panel project">
+      <div class="panel-label">PROJECT 002</div><h3>FUTURE INITIATIVE</h3>
+      <p>Upcoming team development project.</p>
+      <span class="status">PLANNING</span>
+      <div class="progress"><i style="width:20%"></i></div><small>20% COMPLETE — DEMO</small>
+    </article>
+  </div>
+</section>
+
+<section id="etra" class="section">
+  <div class="section-heading"><span>05 // ARTIFICIAL INTELLIGENCE</span><h2>ETRA <b>AI</b></h2></div>
+  <p class="intro">EL TRANO'S EXCLUSIVE ROBOTIC ASSISTANT</p>
+  <div class="grid">
+    <div class="panel">
+      <div class="panel-label">SYSTEM MONITOR</div>
+      <h3>CORE STATUS</h3>
+      <p>STATUS: <b class="green">ONLINE — DEMO</b></p>
+      <p>SESSION: <b class="green">ACTIVE</b></p>
+      <p>COMMANDS: <strong id="totalCommands">0</strong></p>
+      <p>LOCAL TIME: <strong id="etraClock">--:--:--</strong></p>
+    </div>
+    <div class="panel">
+      <div class="panel-label">COMMAND HISTORY</div>
+      <h3>RECENT ACTIVITY</h3>
+      <ul id="commandHistory"><li>System initialized</li></ul>
+      <button id="clearHistory" class="secondary">CLEAR HISTORY</button>
+    </div>
+  </div>
+  <div class="panel chat-panel">
+    <div class="panel-label">ETRA TERMINAL // SECURE DEMO CHANNEL</div>
+    <div id="etraChat" class="chat">
+      <p><b>ETRA:</b> Welcome to EL TRANO. How can I assist you?</p>
+    </div>
+    <div class="chat-input">
+      <input id="etraInput" placeholder="ENTER COMMAND...">
+      <button id="sendBtn">TRANSMIT ↗</button>
+      <button id="clearChat" class="secondary">CLEAR</button>
+    </div>
+  </div>
+  <p class="hint">ETRA IS A SIMULATED ASSISTANT. REAL AI CONNECTION IS NOT YET ACTIVE.</p>
+</section>
+
+<section id="notices" class="section">
+  <div class="section-heading"><span>06 // COMMUNICATION</span><h2>NOTICE <b>BOARD</b></h2></div>
+  <div id="noticeList" class="panel">
+    <article class="notice"><h3>NETWORK INITIALIZED</h3><p>The EL TRANO command center demo is online.</p><small>SYSTEM NOTICE</small></article>
+  </div>
+  <div class="panel form-card">
+    <div class="panel-label">NEW TRANSMISSION</div>
+    <input id="noticeTitle" placeholder="NOTICE TITLE">
+    <textarea id="noticeText" placeholder="ENTER ANNOUNCEMENT..."></textarea>
+    <button id="addNotice">PUBLISH NOTICE ↗</button>
+  </div>
+</section>
+
+<section id="tasks" class="section">
+  <div class="section-heading"><span>07 // ASSIGNMENTS</span><h2>TASK <b>MANAGER</b></h2></div>
+  <div class="panel form-card">
+    <input id="taskInput" placeholder="ENTER NEW TASK...">
+    <button id="addTask">CREATE TASK +</button>
+  </div>
+  <div class="panel"><div class="panel-label">ACTIVE ASSIGNMENTS</div><ul id="taskList"><li class="empty">No tasks added yet.</li></ul></div>
+</section>
+
+<section id="events" class="section">
+  <div class="section-heading"><span>08 // SCHEDULE</span><h2>TEAM <b>EVENTS</b></h2></div>
+  <div id="eventList" class="grid">
+    <article class="panel"><h3>TEAM MEETING</h3><p>Date: To be announced</p><span class="status">PLANNED</span></article>
+    <article class="panel"><h3>PROJECT REVIEW</h3><p>Date: To be announced</p><span class="status">PLANNED</span></article>
+  </div>
+  <div class="panel form-card">
+    <div class="panel-label">SCHEDULE NEW EVENT</div>
+    <input id="eventName" placeholder="EVENT NAME">
+    <input id="eventDate" type="date">
+    <button id="addEvent">REGISTER EVENT +</button>
+  </div>
+</section>
+
+<section id="files" class="section">
+  <div class="section-heading"><span>09 // ARCHIVES</span><h2>TEAM <b>FILES</b></h2></div>
+  <div class="panel">
+    <div class="panel-label">LOCAL FILE SELECTION</div>
+    <h3>PROJECT ARCHIVE</h3>
+    <p>Select a file to view its name. This demo does not upload it to a shared server.</p>
+    <input type="file" id="fileInput">
+    <p id="fileName" class="hint">NO FILE SELECTED.</p>
+  </div>
+</section>
+
+<section id="search" class="section">
+  <div class="section-heading"><span>10 // INTELLIGENCE</span><h2>NETWORK <b>SEARCH</b></h2></div>
+  <div class="panel form-card">
+    <input id="siteSearch" placeholder="SEARCH NETWORK...">
+    <button id="searchBtn">SCAN NETWORK ↗</button>
+    <div id="searchResults"></div>
+  </div>
+</section>
+
+<section id="login" class="section">
+  <div class="section-heading"><span>11 // AUTHORIZATION</span><h2>MEMBER <b>ACCESS</b></h2></div>
+  <div class="panel form-card">
+    <div class="panel-label">DEMO ACCESS TERMINAL</div>
+    <input id="memberId" placeholder="MEMBER ID">
+    <input id="memberPassword" type="password" placeholder="PASSWORD">
+    <button id="loginBtn">REQUEST ACCESS ↗</button>
+    <p id="loginMessage" class="hint">DEMO INTERFACE — REAL AUTHENTICATION NOT ACTIVE.</p>
+  </div>
+</section>
+
+<section id="settings" class="section">
+  <div class="section-heading"><span>12 // CONFIGURATION</span><h2>SYSTEM <b>SETTINGS</b></h2></div>
+  <div class="panel">
+    <label class="setting-row">ENABLE SOUND EFFECTS <input type="checkbox" id="soundToggle"></label>
+    <label class="setting-row">COMPACT LAYOUT <input type="checkbox" id="compactToggle"></label>
+    <button id="resetSettings" class="secondary">RESET CONFIGURATION</button>
+  </div>
+</section>
+
+<section id="admin" class="section">
+  <div class="section-heading"><span>13 // CONTROL</span><h2>ADMIN <b>TERMINAL</b></h2></div>
+  <div class="panel">
+    <div class="panel-label">ADMINISTRATOR DEMO INTERFACE</div>
+    <h3>NETWORK CONTROL</h3>
+    <p>Administrative tools are prototypes. Secure permissions are not configured.</p>
+    <button id="adminStatus">RUN SYSTEM DIAGNOSTICS</button>
+    <p id="adminMessage" class="hint">AWAITING COMMAND.</p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="logo">EL <span>TRANO</span></div>
+  <p>ONE TEAM. ONE IDENTITY. ONE VISION.</p>
+  <div class="footer-links"><a href="#home">HOME</a><a href="#dashboard">COMMAND</a><a href="#settings">SETTINGS</a></div>
+  <small>© 2026 EL TRANO // TACTICAL COMMAND CENTER 2.0</small>
+</footer>
